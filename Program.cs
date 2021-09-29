@@ -56,16 +56,16 @@ namespace Day14LinkedList
             //list3.Display();
             //#endregion
 
-            //#region UC5
-            //UC5_Del1stEle list4 = new UC5_Del1stEle();
-            //list4.Add(56);
-            //list4.Add(30);
-            //list4.Add(70);
-            //list4.Display();
-            //list4.RemoveFirstNode();
-            //Console.WriteLine("\n Final Sequence ");
-            //list4.Display();
-            //#endregion
+            #region UC5
+            UC5_Del1stEle list4 = new UC5_Del1stEle();
+            list4.Add(56);
+            list4.Add(30);
+            list4.Add(70);
+            list4.Display();
+            list4.RemoveFirstNode();
+            Console.WriteLine("\n Final Sequence ");
+            list4.Display();
+            #endregion
 
             //#region UC6
             //UC6_DelLastEle list5 = new UC6_DelLastEle();
@@ -115,21 +115,21 @@ namespace Day14LinkedList
             //Console.WriteLine("\ncount= "+ list8.Count());
             //#endregion
 
-            #region UC10
-            UC10_SortedLinkedList list9 = new UC10_SortedLinkedList();
-            list9.Add(56);
-            list9.Add(30);
-            list9.Add(40);
-            list9.Add(70);
-            Console.WriteLine("\n Sequence");
-            list9.Display();
-            list9.Sort(56);
-            list9.Sort(30);
-            list9.Sort(40);
-            list9.Sort(70);
-            Console.WriteLine("\n Final Sequence ");
-            list9.Display();
-            #endregion
+            //#region UC10
+            //UC10_SortedLinkedList list9 = new UC10_SortedLinkedList();
+            //list9.Add(56);
+            //list9.Add(30);
+            //list9.Add(40);
+            //list9.Add(70);
+            //Console.WriteLine("\n Sequence");
+            //list9.Display();
+            //list9.Sort(56);
+            //list9.Sort(30);
+            //list9.Sort(40);
+            //list9.Sort(70);
+            //Console.WriteLine("\n Final Sequence ");
+            //list9.Display();
+            //#endregion
 
             Console.ReadKey();
         }
