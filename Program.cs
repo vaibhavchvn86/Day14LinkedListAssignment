@@ -56,16 +56,16 @@ namespace Day14LinkedList
             //list3.Display();
             //#endregion
 
-            #region UC5
-            UC5_Del1stEle list4 = new UC5_Del1stEle();
-            list4.Add(56);
-            list4.Add(30);
-            list4.Add(70);
-            list4.Display();
-            list4.RemoveFirstNode();
-            Console.WriteLine("\n Final Sequence ");
-            list4.Display();
-            #endregion
+            //#region UC5
+            //UC5_Del1stEle list4 = new UC5_Del1stEle();
+            //list4.Add(56);
+            //list4.Add(30);
+            //list4.Add(70);
+            //list4.Display();
+            //list4.RemoveFirstNode();
+            //Console.WriteLine("\n Final Sequence ");
+            //list4.Display();
+            //#endregion
 
             //#region UC6
             //UC6_DelLastEle list5 = new UC6_DelLastEle();
@@ -78,7 +78,7 @@ namespace Day14LinkedList
             //list5.Display();
             //#endregion
 
-            //#region
+            //#region UC7
             //UC7_Search30 list6 = new UC7_Search30();
             //list6.Add(56);
             //list6.Add(30);
@@ -101,19 +101,19 @@ namespace Day14LinkedList
             //list7.Display();
             //#endregion
 
-            //#region UC9
-            //UC9_SearchnDel40fromSeq list8 = new UC9_SearchnDel40fromSeq();
-            //list8.Add(56);
-            //list8.Add(30);
-            //list8.Add(40);
-            //list8.Add(70);
-            //list8.Display();
-            ////list8.Search(40);
-            //list8.Delete(40);
-            //Console.WriteLine("\n Final Sequence ");
-            //list8.Display();
-            //Console.WriteLine("\ncount= "+ list8.Count());
-            //#endregion
+            #region UC9
+            UC9_SearchnDel40fromSeq list8 = new UC9_SearchnDel40fromSeq();
+            list8.Add(56);
+            list8.Add(30);
+            list8.Add(40);
+            list8.Add(70);
+            list8.Display();
+            list8.Search(40);
+            list8.Delete(40);
+            Console.WriteLine("\n Final Sequence ");
+            list8.Display();
+            Console.WriteLine("\ncount= " + list8.Count());
+            #endregion
 
             //#region UC10
             //UC10_SortedLinkedList list9 = new UC10_SortedLinkedList();
