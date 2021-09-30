@@ -26,13 +26,15 @@ namespace Day14LinkedList.UC9_LinkedList
         
         internal Node Search(int value)
         {
-            while(this.head!=null)
+            Node temp = this.head;
+            while(temp != null)
             {
-            if(this.head.data==value)
+            if(temp.data==value)
                 {
-                    return this.head;
+                    Console.WriteLine("\n Your element found");
+                    return temp;
                 }
-                this.head = this.head.next;
+                temp = temp.next;
             }
             return null;
         }
